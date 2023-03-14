@@ -28,14 +28,25 @@
   <div>
     <ul class="contain">
       <!-- svelte-ignore a11y-missing-attribute -->
-      <li calss="item"><a herf="">datadata</a></li>
+      <li class="item"><a herf="">사진을 위한 공백</a></li>
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <li class="item"><a herf="">About Me</a></li>
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <li class="item"><a herf="">Project 1</a></li>
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <li class="item"><a herf="">Project 2</a></li>
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <li class="item"><a herf="">Project 3</a></li>
     </ul>
   </div>
-  <button></button>
-  <input type="text" id="user_id" placeholder="비교할 플레이어의 닉네임을 입력하세요." />
+  
+  <button class="left"></button>
+  
+  <input class="left" type="text" id="user_id" placeholder="비교할 플레이어의 닉네임을 입력하세요." />
   <button class="right"></button>
   <input class="right" type="text" id="user_id" placeholder="비교할 플레이어의 닉네임을 입력하세요." />
-
+  <h1>&nbsp;</h1>
+  <h1>&nbsp;</h1>
 
   <h1>{name}</h1>
   <h1>{tier}</h1>
@@ -46,5 +57,6 @@
   <h1>{deathPerDamage}</h1>
 
 </nav>
+
 
 
