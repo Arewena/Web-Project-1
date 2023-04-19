@@ -7,7 +7,7 @@ import time
 from pydantic import BaseModel
 
 
-token = 'RGAPI-8a3b068d-820e-446c-818f-d38e39d3e71d'
+token = ''
 
 app = FastAPI()
 
